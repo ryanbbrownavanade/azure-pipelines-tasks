@@ -87,6 +87,7 @@ export class AzureServiceClientBase {
             requestUri += '?' + queryParameters.join('&');
         }
 
+	console.log("Request URI is: ${requestUri}")
         return requestUri
     }
 
